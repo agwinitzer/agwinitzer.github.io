@@ -49,9 +49,9 @@ table {
 
 /* Add Styles Here */
 body { font-family:baskerville; font-size:12px; }
-section#content { margin:0 auto; width:960px; padding:50px 50px; }
-a {text-decoration:none; color: black; background-color: aqua; padding:70px 70px;}
+section#content { margin:0 auto; width:960px; padding:45px; }
+a {text-decoration:none; color: black; background-color: aqua; padding:25px; padding-bottom:20px;}
 
 h1 { font-family:Helvetica; text-transform:uppercase; font-size:50px; font-weight:bold; table-layout: center; color:aqua; background-color: black padding:70px 70px;}
-h2 { font-size:25px; font-weight:bold; color:aqua;  padding-top:50px; padding:70px 70px;}
-p { font-size:20px; padding-top:50px; padding-left:50px; color:black; padding:70px 70px;}
+h2 { font-size:25px; font-weight:bold; color:black;  padding-top:30px; }
+p { font-family:Helvetica; font-size:20px; padding-top:50px; padding-left:50px; color:black; }
