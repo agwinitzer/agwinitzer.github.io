@@ -54,3 +54,4 @@ h1 {float:center; width:40%; padding: 15px;}
 nav {border-top:solid 4px; border-bottom: solid 4px }
 li {display:inline-block; font-family:helvetica; font-size: 35px; font-weight:bold; padding:15px;}
 h2 {font-family:helvetica; font-size:45px; padding-top: 15px; padding-bottom: 15px;}
+article {width:45%;}
