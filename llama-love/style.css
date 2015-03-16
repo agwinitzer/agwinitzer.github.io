@@ -62,6 +62,7 @@ body {width:900px; position:relative;}
 article {width:40%; float:left; padding:35px;}
 #article1 {float:left; padding:20px;}
 #article2 {float:right; padding:20px;}
+image {float:left;margin:2.5%;}
 h1 {font-family:helvetica; font-size: 25px}
 h2 {font-family:helvetica; font-size: 10px}
 p {font-family:helvetica; font-size: 15px}
