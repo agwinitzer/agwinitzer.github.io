@@ -68,7 +68,15 @@ li {display:inline-block;
  font-size: 25px;
   font-weight:bold; 
   padding:15px;
+  text-align:center;
   }
+
+img{height:200px;}
+
+
+ .animals {width:45%; margin:5px;padding:30px;}
+ #cat {float:left;}
+ #dog {float:right;}
 
 h2 {font-family:georgia; 
 	font-size:45px; 
@@ -78,7 +86,8 @@ h2 {font-family:georgia;
 article {width:45%; 
 	margin-bottom: 20px;}
 
-footer {border-top:solid 4px; 
+footer { clear:both;
+	border-top:solid 4px; 
 	font-size:15px; 
 	margin-top: 20px; 
 	padding-right: 10px;
