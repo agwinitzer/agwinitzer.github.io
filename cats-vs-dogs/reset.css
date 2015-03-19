@@ -61,30 +61,36 @@ nav {border-top:solid 4px;
 	margin-top:20px; 
 	margin-bottom:20px; 
 	margin-right: 60px; 
-	margin-left:60px;}
+	margin-left:60px;
+ 	text-align:center;}
 
 li {display:inline-block;
  font-family:georgia; 
  font-size: 25px;
   font-weight:bold; 
-  padding:15px;
+  padding:15px; 
   text-align:center;
   }
 
-img{height:200px;}
 
+ img #logo {height:100px;}
+ .animals {width:40%; 
+ 	margin:5px;
+ 	}
+ .animals img {height:300px;}
+ #cat {float:left; padding-left:3%;padding-right:2%;}
+ #dog {float:left;padding-left:2%;}
 
- .animals {width:45%; margin:5px;padding:30px;}
- #cat {float:left;}
- #dog {float:right;}
 
 h2 {font-family:georgia; 
-	font-size:45px; 
+	font-size:30px;
+	font-weight:bold; 
 	padding-top: 15px; 
 	padding-bottom: 15px;}
 
-article {width:45%; 
-	margin-bottom: 20px;}
+article {width:100%; 
+	margin-bottom: 20px;
+	font-size:15px;}
 
 footer { clear:both;
 	border-top:solid 4px; 
