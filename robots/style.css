@@ -54,25 +54,18 @@ table {
 
 
 
-
-
-
-
-h1 {color:brown; 
-	font-family: helvetica; 
-	font-weight: bold;
-	font-size:40px;
-	margin-top: 30px; 
-	margin-bottom:15px; }
-
-h2 {color:brown; 
-	font-family: helvetica; 
-	font-size:20px; 
-	font-variant: small-caps;
-	font-weight: bold;
-	margin-top: 10px; 
-	margin-bottom:10px;}
-
-article {}
-
-ul{float:right; font-size:15px; }
+a {text-decoration:none; color:#503917;}
+#site-wrapper {background-color: #d3dfaa; height:70px;}
+nav {}
+#site-wrapper h1{float:left;text-decoration:none; color:#503917;}
+#site-wrapper nav{margin-left:20px; float:right; font-size:10px; padding:5px; text-decoration:none; color:#503917;}
+#menu-wrapper {clear:both; background-color: #503917; height:20px;}
+ul {}
+li{font-family:helvetica; font-size:10px; font-weight:bold; text-decoration:none; color:white; padding-top:5px; padding-right:30px; float:left;}
+li a {text-decoration:none; color:white;}
+#content-wrapper {clear:both;}
+#content{}
+article{}
+h1 {font-family:helvetica; color:#503917; font-size:25px; margin-left:180px; padding-top: 20px; padding-bottom:15px;}
+h2 {font-family:helvetica; font-size: 20px; margin-left:180px; padding-bottom:10px; padding-top:10px;}
+p {font-family:helvetica; font-size: 15px; margin-left:180px; color:black;}
