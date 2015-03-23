@@ -68,4 +68,6 @@ li a {text-decoration:none; color:white;}
 article{}
 h1 {font-family:helvetica; color:#503917; font-size:25px; margin-left:180px; padding-top: 20px; padding-bottom:15px;}
 h2 {font-family:helvetica; font-size: 20px; margin-left:180px; padding-bottom:10px; padding-top:10px;}
-p {font-family:helvetica; font-size: 15px; margin-left:180px; color:black;}
+p {font-family:helvetica; font-size: 15px; margin-left:180px; color:black; width:45%;}
+#sidebar {clear:both;}
+h1 {float:left;font-family:helvetica;font-size:20px; }
