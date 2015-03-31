@@ -54,20 +54,76 @@ table {
 
 
 
-a {text-decoration:none; color:#503917;}
-#site-wrapper {background-color: #d3dfaa; height:70px;}
+a {text-decoration:none; 
+	color:#503917;}
+#site-wrapper {background-color: 
+				#d3dfaa; 
+				height:70px;}
 nav {}
-#site-wrapper h1{float:left;text-decoration:none; color:#503917;}
-#site-wrapper nav{margin-left:20px; float:right; font-size:10px; padding:5px; text-decoration:none; color:#503917;}
-#menu-wrapper {clear:both; background-color: #503917; height:20px;}
-ul {}
-li{font-family:helvetica; font-size:10px; font-weight:bold; text-decoration:none; color:white; padding-top:5px; padding-right:30px; float:left;}
-li a {text-decoration:none; color:white;}
+#site-wrapper h1{float:left;
+				text-decoration:none; 
+				color:#503917;}
+#site-wrapper nav{margin-left:20px; 
+					float:right; 
+					font-size:10px; 
+					padding:5px; 
+					text-decoration:none; 
+					color:#503917;}
+#menu-wrapper {clear:both; 
+				background-color: 
+				#503917; 
+				height:20px;}
+ul {margin-left:180px;}
+li{font-family:helvetica; 
+	font-size:10px; 
+	font-weight:bold; 
+	text-decoration:none; 
+	color:white; 
+	padding-top:5px; 
+	padding-right:30px; 
+	float:left;}
+li a {text-decoration:none; 
+		color:white;}
 #content-wrapper {clear:both;}
 #content{}
 article{}
-h1 {font-family:helvetica; color:#503917; font-size:25px; margin-left:180px; padding-top: 20px; padding-bottom:15px;}
-h2 {font-family:helvetica; font-size: 20px; margin-left:180px; padding-bottom:10px; padding-top:10px;}
-p {font-family:helvetica; font-size: 15px; margin-left:180px; color:black; width:45%;}
+h1 {font-family:helvetica; 
+	font-size:25px;
+	color:#503917;  
+	margin-left:180px; 
+	padding-top: 20px;
+	position:absolute;}
+h2 {font-family:helvetica; 
+	font-size: 20px; 
+	margin-left:180px;  
+	padding-top:50px;}
+p {font-family:helvetica; 
+	font-size: 15px; 
+	margin-left:180px; 
+	color:black; 
+	width:45%;}
 #sidebar {clear:both;}
-h1 {float:left;font-family:helvetica;font-size:20px; }
+h1 {float:left;
+	font-family:helvetica;
+	font-size:20px; }
+ul {clear:both;}
+li {position:relative; 
+	font-size:12px;
+	font-family:helvetica;}
+#robot-pets {position:absolute;top:50px;left:50px; }
+#vintage-bots {position:absolute;top:50px;left:50px;}
+a {clear:both;}
+#footer-wrapper {clear:both; 
+				background-color: 
+				#503917; 
+				height:160px;}
+#site-footer { position:absolute:left;}
+#footer-contact {font-family:helvetica; 
+				font-size:15px;}
+h1 {font-family: helvetica; 
+	font-size:30px;}
+p {}
+#footer-follow {}
+h1 {}
+ul {}
+li {}
