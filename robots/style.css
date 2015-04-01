@@ -60,6 +60,7 @@ a {text-decoration:none;
 				#d3dfaa; 
 				height:70px;}
 nav {}
+#site-header h1{margin-left:180px;}
 #site-wrapper h1{float:left;
 				text-decoration:none; 
 				color:#503917;}
@@ -82,36 +83,44 @@ li{font-family:helvetica;
 	padding-top:5px; 
 	padding-right:30px; 
 	float:left;}
-li a {text-decoration:none; 
+#menu-wrapper li a {text-decoration:none; 
 		color:white;}
 #content-wrapper {clear:both;}
 #content{}
-article{}
+
+
+article{width:40%;margin-left:180px; float:left; padding-top:50px;}
+#page {width:40%;
+	margin-right:0;}
 h1 {font-family:helvetica; 
 	font-size:25px;
-	color:#503917;  
-	margin-left:180px; 
+	color:#503917;   
 	padding-top: 20px;
 	position:absolute;}
 h2 {font-family:helvetica; 
-	font-size: 20px; 
-	margin-left:180px;  
+	font-size: 20px;   
 	padding-top:50px;}
 p {font-family:helvetica; 
 	font-size: 15px; 
-	margin-left:180px; 
-	color:black; 
-	width:45%;}
-#sidebar {clear:both;}
+	color:black; }
+
+
+#sidebar {width:20%;
+	float:right;
+	padding-right: 90px; }
+#sidebar li {clear:both;
+	color:#503917;}
+
+
 h1 {float:left;
 	font-family:helvetica;
-	font-size:20px; }
-ul {clear:both;}
-li {position:relative; 
+	font-size:20px}
+li {position:relative;
+	margin-left:20px; 
 	font-size:12px;
-	font-family:helvetica;}
-#robot-pets {position:absolute;top:50px;left:50px; }
-#vintage-bots {position:absolute;top:50px;left:50px;}
+	font-family:helvetica;color:#503917;}
+#robot-pets {position:absolute;top:50px;left:50px; padding-left:20px;}
+#vintage-bots {position:absolute;top:50px;left:50px; padding-left:20px;}
 a {clear:both;}
 #footer-wrapper {clear:both; 
 				background-color: 
