@@ -109,18 +109,21 @@ p {font-family:helvetica;
 	float:right;
 	padding-right: 90px; }
 #sidebar li {clear:both;
-	color:#503917;}
+		color:#503917;
+		display:block;}
 
 
 h1 {float:left;
 	font-family:helvetica;
 	font-size:20px}
 li {position:relative;
-	margin-left:20px; 
 	font-size:12px;
-	font-family:helvetica;color:#503917;}
-#robot-pets {position:absolute;top:50px;left:50px; padding-left:20px;}
-#vintage-bots {position:absolute;top:50px;left:50px; padding-left:20px;}
+	font-family:helvetica;
+	color:#503917;}
+#robot-pets {position:absolute;top:50px;
+	left:50px; padding-left:20px;}
+#vintage-bots {position:absolute;top:50px;left:50px; 
+				padding-left:20px;}
 a {clear:both;}
 #footer-wrapper {clear:both; 
 				background-color: 
