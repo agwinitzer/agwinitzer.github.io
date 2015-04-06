@@ -108,6 +108,10 @@ footer { clear:both;
  	text-align:center;
  	text-decoration:none;}
 
+ @media screen and (max-width:800){
+ 	{float:none;}
+ }
+
 #copyright {float:left;padding-top:10px;}
  #sources {float:right;padding-top:10px;}
  
