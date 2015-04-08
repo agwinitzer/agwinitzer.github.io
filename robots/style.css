@@ -79,15 +79,18 @@ header h1	{float:left;
 			margin-right:auto;
 			width:80%;}
 
-#main-menu li {clear:both;
+#main-menu li a {
+			display:inline-block;
 			text-decoration:none;
 			font-family:helvetica; 
 			font-size:10px; 
 			font-weight:bold; 
 			color:white; 
 			padding-top:5px; 
-			padding-right:30px; 
-			float:left;}
+			padding-right:10px; 
+			float:left;
+			position:relative;right:455px;
+			}
 
 #content-wrapper{clear:both;}
 
@@ -120,7 +123,7 @@ h2 {font-family:helvetica;
 			padding-top:5px;
 			padding-bottom:5px;}
 
-#sidebar li {clear:both;
+#sidebar li a {clear:both;
 			text-decoration:none;
 			font-family: helvetica;
 			font-size:15px;
