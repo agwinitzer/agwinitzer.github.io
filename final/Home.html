@@ -1,6 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	 <script src='jquery.cycle.all.js'></script>
+
 	 <link rel="stylesheet" href="final.css" type="text/css" media="screen" />
 	<title>Amanda's Designs</title>
 </head>
@@ -9,6 +12,8 @@
 	<header>
 		<h1>Amanda Winitzer</h1>
 			<nav>
+				<nav id='navbar'>
+				<div id='menu'>
 				<ul>
 					<li><a href="http://agwinitzer.github.io/final/GraphicDesign">Graphic Design<p></a></p></li>
 					<li><a href="http://agwinitzer.github.io/final/photography">Photography<p></a></p></li>
@@ -16,16 +21,24 @@
 					<li><a href="http://agwinitzer.github.io/final/AboutPage">About<p></a></p></li>
 				</ul>
 			</nav>	
+		</div> <!-- end #menu -->
 	</header>
 <body>	
-	<div id='fade'>		
-	<img src='images/makeup.jpg'>
-	<img src='images/fear.jpg'>
-	<img src='images/flower.jpg'>
-</div>
-	<script>
-	$('#fade').cycle();
-	</script>
+	<div class="pics"> 
+    <img src="images/makeup.jpg" width="1200" height="650" /> 
+    <img src="images/fear.jpg" width="1200" height="650" /> 
+    <img src="images/flower.jpg" width="1200" height="650" /> 
+
+</div> 		
+	 <script>
+      $(document).ready(function() {
+        $('.pics').cycle({
+          
+          fx: 'fade' 
+          
+        });
+      });     </script>
+	
 
 </body>	
 
