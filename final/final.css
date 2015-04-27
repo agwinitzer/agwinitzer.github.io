@@ -187,11 +187,14 @@ h1 {font-family: 'montserratbold';
     font-size:30px;}
 
 ul{background-color:#b3a0ba;
-    padding:5px;}
+    padding:35px;}
 
 li {clear:both;
     text-decoration:none; 
     display:inline-block;}
 
-h2 {font-family: 'playfair_displayregular';
+h2 {font-family: 'montserratlight';
     font-size:22px;}
+
+article {font-family: 'playfair_displayregular';
+        font-size:18px;}
