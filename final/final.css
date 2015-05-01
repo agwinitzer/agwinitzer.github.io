@@ -202,11 +202,17 @@ li {color:white;
     display:inline-block;
     padding-right:15px;}
 
-h2 {font-family: 'montserratlight';
-    font-size:22px;}
+h2 {font-family: 'montserratbold';
+    font-size:30px;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;}
 
-article {font-family: 'playfair_displayregular';
-        font-size:18px;}
+article {font-family: 'playfair_displaybold_italic';
+        font-size:18px;
+        width:30%; 
+        padding-left:15px;
+        padding-bottom:15px;}
 
 .pics {  
     height:  232px;  
