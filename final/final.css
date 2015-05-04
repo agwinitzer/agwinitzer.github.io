@@ -198,20 +198,29 @@ h1 {font-family: 'playfair_displaybold';
     background-color:#b3a0ba;
     padding:15px;
     border-bottom: solid 10px;
-    width:80%;}
+    }
 
 #menu li {clear:both;
     text-decoration:none;
     color:white;
     display:inline-block;
     padding-right:15px;
-    width:80%;}
+    }
 
 h2 {font-family: 'montserratbold';
     font-size:30px;
     padding-left:15px;
     padding-top:10px;
     padding-bottom:10px;}
+
+h3  {font-family: 'playfair_displaybold';
+    font-size:20px;
+    padding-left:5px;
+    padding-top:10px;
+    color:#b3a0ba;
+   
+    }
+
 
 article {font-family: 'playfair_displaybold_italic';
         font-size:18px;
@@ -221,7 +230,11 @@ article {font-family: 'playfair_displaybold_italic';
 
 
 
-p {text-decoration:none; color: white; background-color: #b3a0ba; padding:10px; padding-bottom:10px;}
+p {text-decoration:none; 
+    color: white; 
+    background-color: #b3a0ba; 
+    padding:10px; 
+    padding-bottom:10px;}
 
 .pics {  
     height:  232px;  
@@ -242,5 +255,5 @@ p {text-decoration:none; color: white; background-color: #b3a0ba; padding:10px; 
 
 
 
-#me img{float:left;}
+#me img{position:relative;}
 
