@@ -196,6 +196,7 @@ h1 {font-family: 'playfair_displaybold';
     background-color:#b3a0ba;
     padding-top:15px;
     padding-left:20px;
+    padding-bottom:10px;
     border-bottom:solid 10px;
     }
 
@@ -255,5 +256,5 @@ p {text-decoration:none;
 
 
 
-#me img{position:relative;}
+#me img{float:left;}
 
