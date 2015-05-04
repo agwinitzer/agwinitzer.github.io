@@ -190,7 +190,7 @@ h1 {font-family: 'playfair_displaybold';
    
     }
 
-ul {clear:both;
+.navbar ul {clear:both;
      font-family: 'montserratlight';
     text-decoration:none;
     font-size:20px;
@@ -198,7 +198,7 @@ ul {clear:both;
     padding:15px;
     border-bottom: solid 10px;}
 
-li {clear:both;
+#menu li {clear:both;
     text-decoration:none;
     color:white;
     display:inline-block;
@@ -211,6 +211,12 @@ h2 {font-family: 'montserratbold';
     padding-bottom:10px;}
 
 article {font-family: 'playfair_displaybold_italic';
+        font-size:18px;
+        width:30%; 
+        padding-left:15px;
+        padding-bottom:15px;}
+
+ul {font-family: 'playfair_displaybold_italic';
         font-size:18px;
         width:30%; 
         padding-left:15px;
