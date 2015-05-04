@@ -190,7 +190,7 @@ h1 {font-family: 'playfair_displaybold';
    
     }
 
-.navbar ul {clear:both;
+ ul {clear:both;
      font-family: 'montserratlight';
     text-decoration:none;
     font-size:20px;
@@ -198,7 +198,7 @@ h1 {font-family: 'playfair_displaybold';
     padding:15px;
     border-bottom: solid 10px;}
 
-#menu li {clear:both;
+li {clear:both;
     text-decoration:none;
     color:white;
     display:inline-block;
