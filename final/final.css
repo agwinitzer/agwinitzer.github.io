@@ -190,19 +190,22 @@ h1 {font-family: 'playfair_displaybold';
    
     }
 
- ul {clear:both;
+#navbar ul {clear:both;
      font-family: 'montserratlight';
     text-decoration:none;
+    color:white;
     font-size:20px;
     background-color:#b3a0ba;
     padding:15px;
-    border-bottom: solid 10px;}
+    border-bottom: solid 10px;
+    width:80%;}
 
-li {clear:both;
+#menu li {clear:both;
     text-decoration:none;
     color:white;
     display:inline-block;
-    padding-right:15px;}
+    padding-right:15px;
+    width:80%;}
 
 h2 {font-family: 'montserratbold';
     font-size:30px;
@@ -213,12 +216,12 @@ h2 {font-family: 'montserratbold';
 article {font-family: 'playfair_displaybold_italic';
         font-size:18px;
         width:30%; 
-        padding-left:15px;
-        padding-bottom:15px;}
+        padding-left:20px;
+        padding-bottom:20px;}
 
 
 
-p {{text-decoration:none; color: white; background-color: #b3a0ba; padding:10px; padding-bottom:10px;}}
+p {text-decoration:none; color: white; background-color: #b3a0ba; padding:10px; padding-bottom:10px;}
 
 .pics {  
     height:  232px;  
@@ -237,7 +240,7 @@ p {{text-decoration:none; color: white; background-color: #b3a0ba; padding:10px;
     left: 0 
 } 
 
-img
-.about
-#me {float:left;}
+
+
+#me img{float:left;}
 
