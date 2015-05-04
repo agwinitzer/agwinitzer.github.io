@@ -198,7 +198,9 @@ ul {clear:both;
     padding:15px;
     border-bottom: solid 10px;}
 
-li {color:white;
+li {clear:both;
+    text-decoration:none;
+    color:white;
     display:inline-block;
     padding-right:15px;}
 
@@ -213,6 +215,8 @@ article {font-family: 'playfair_displaybold_italic';
         width:30%; 
         padding-left:15px;
         padding-bottom:15px;}
+
+p {{text-decoration:none; color: white; background-color: #b3a0ba; padding:10px; padding-bottom:10px;}}
 
 .pics {  
     height:  232px;  
@@ -230,4 +234,8 @@ article {font-family: 'playfair_displaybold_italic';
     top:  0; 
     left: 0 
 } 
+
+img
+.about
+#me {float:left;}
 
