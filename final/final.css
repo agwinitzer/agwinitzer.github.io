@@ -206,6 +206,10 @@ $(document).ready(function() {
 
 
 
+header {height:50px;
+        width:100%;
+        position:fixed;
+        z-index:1;}
 
 
 h1 {font-family: 'playfair_displaybold';
@@ -221,7 +225,7 @@ h1 {font-family: 'playfair_displaybold';
     background-color:#b3a0ba;
     padding-top:15px;
     padding-left:20px;
-    padding-bottom:10px;
+    padding-bottom:0px;
     border-bottom:solid 10px;
     }
 
