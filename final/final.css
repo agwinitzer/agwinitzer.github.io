@@ -248,8 +248,9 @@ article { font-family: 'playfair_displayregular';
 p {text-decoration:none; 
     color: white; 
     background-color: #b3a0ba;
-    width:10%; 
-    height:30px;
+    width:6%; 
+    padding-bottom:5px;
+    padding-left:20px;
     padding-top:5px;}
 
 .pics {  
@@ -272,7 +273,7 @@ p {text-decoration:none;
 
 
 #me img{float:right;
-        padding:20px;
-        background-color:black;}
+        padding-right:66px;
+        padding-top:82px;}
 
 
