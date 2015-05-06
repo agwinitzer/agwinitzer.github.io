@@ -219,6 +219,7 @@ a {text-decoration:none;
 
 h2 {font-family: 'montserratbold';
     font-size:30px;
+    padding-top:200px;
     padding-left:15px;
     padding-top:10px;
     padding-bottom:10px;}
@@ -267,31 +268,8 @@ p {text-decoration:none;
 
 
 
-#me img{float:left;}
-
-$(document).ready(function() {
-
-    /* This is basic - uses default settings */
-    
-    $("a#single_image").fancybox();
-    
-    /* Using custom settings */
-    
-    $("a#inline").fancybox({
-        'hideOnContentClick': true
-    });
-
-    /* Apply fancybox to multiple items */
-    
-    $("a.group").fancybox({
-        'transitionIn'  :   'elastic',
-        'transitionOut' :   'elastic',
-        'speedIn'       :   600, 
-        'speedOut'      :   200, 
-        'overlayShow'   :   false
-    });
-    
-});
-
+#me img{float:right;
+        padding:20px;
+        background-color:black;}
 
 
