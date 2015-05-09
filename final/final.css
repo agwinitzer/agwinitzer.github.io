@@ -216,8 +216,7 @@ a {text-decoration:none;
     padding-right:15px;
     }
 
-#everything {position:absolute;
-            top:0px;}
+#everything {padding-top:150px;}
 
 
 h2 {font-family: 'montserratbold';
