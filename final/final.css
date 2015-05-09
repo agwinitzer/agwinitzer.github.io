@@ -292,10 +292,11 @@ article { font-family: 'playfair_displayregular';
         background-color:rgba(135, 92, 154, 0.5); 
         top:0; left:0; 
         height:100%; 
-        width:100%;
-        margin-top:45%;
-        text-align:center;
-        padding: 0 10px;}
+        width:100%;}
+
+.project :hover .text p {margin-top:45%; 
+                        text-align:center; 
+                        padding:0 10px;}
 
 
        
