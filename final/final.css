@@ -269,11 +269,14 @@ article { font-family: 'playfair_displayregular';
 #me img{float:right;}
 
 .project{float:left;
-        padding:2%;
+        margin:2%;
       width:21%;
       position:relative;
       top:0px;
       left:0px;
+      font-family: 'playfair_displayregular';
+        font-size:20px;
+        color:white;
 }
 .project img { width:100%; }       
 
@@ -281,8 +284,9 @@ article { font-family: 'playfair_displayregular';
         height:100%;
         background-color: #b3a0ba;
         opacity:.75; }
+.text{display:none;}
 
-.text { display:none;
+.project :hover .text { display:none;
         display:block;
         position:absolute;
         background-color:rgba(135, 92, 154, 0.5); 
