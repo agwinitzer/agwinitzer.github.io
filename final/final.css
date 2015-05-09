@@ -294,7 +294,7 @@ article { font-family: 'playfair_displayregular';
         height:100%; 
         width:100%;}
 
-.project :hover .text p {margin-top:45%; 
+.project :hover .text p {margin-top:50%; 
                         text-align:center; 
                         padding:0 10px;}
 
