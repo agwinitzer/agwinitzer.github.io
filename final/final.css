@@ -217,7 +217,7 @@ a {text-decoration:none;
     }
 
 #everything {position:absolute;
-            top:150px;}
+            top:0px;}
 
 
 h2 {font-family: 'montserratbold';
@@ -259,6 +259,7 @@ p {text-decoration:none;
     width:   232px;  
     padding: 0;  
     margin:  0;  
+    position:fixed;
 } 
  
 .pics img {  
