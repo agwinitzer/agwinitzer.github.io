@@ -241,12 +241,11 @@ article { font-family: 'playfair_displayregular';
         padding-left:20px;
         padding-bottom:20px;}
 
-.resume p {background-color:#b3a0ba;
-        padding-left:15px;
+.resume p {clear:both;
+        background-color:#b3a0ba;
+        padding-left:20px;
         padding-top:10px;
         padding-bottom:10px;
-        padding-right:20px;
-        width:40%;
         color:white;
         font-family:'montserratlight';
         font-size:18px;}
