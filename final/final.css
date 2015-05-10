@@ -292,7 +292,7 @@ article { font-family: 'playfair_displayregular';
 .color {width:100%;
         height:100%;
         background-color: #b3a0ba;
-        opacity:.75; }
+        opacity:.85; }
 .text{display:none;}
 
 .project :hover .text { display:none;
